@@ -37,17 +37,17 @@ public class Calculator extends javax.swing.JFrame {
                 jTextField1.setText(Double.toString(ans));;
                 break;
                 
-            case 2: //addition
+            case 2: //Minus
                 ans = num - Double.parseDouble(jTextField1.getText());
                 jTextField1.setText(Double.toString(ans));;
                 break;
                 
-            case 3: //addition
+            case 3: //Multiply
                 ans = num * Double.parseDouble(jTextField1.getText());
                 jTextField1.setText(Double.toString(ans));;
                 break;
                 
-            case 4: //addition
+            case 4: //Divide
                 ans = num / Double.parseDouble(jTextField1.getText());
                 jTextField1.setText(Double.toString(ans));;
                 break;
